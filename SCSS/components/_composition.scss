@@ -1,5 +1,4 @@
 .composition {
-
   position: relative;
 
   &__photo {
@@ -8,12 +7,11 @@
     border-radius: 2px;
     position: absolute;
     outline-offset: 2rem;
-    transition: all 0.4s;
-
+    transition: all 7s;
 
     &--p1 {
       left: 0;
-      top: -2rem
+      top: -2rem;
     }
 
     &--p2 {
@@ -28,17 +26,13 @@
 
     &:hover {
       transform: scale(1.5) translateY(-0.5rem);
-      box-shadow: 0 2.0rem 4rem rgba($color_black, 0.4);
+      box-shadow: 0 2rem 4rem rgba($color_black, 0.4);
       outline: 5px solid $color_primary;
       z-index: 99999;
     }
-
   }
 
   &:hover &__photo:not(:hover) {
-
     transform: scale(0.5);
-
   }
-
 }
