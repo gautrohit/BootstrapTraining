@@ -1,22 +1,14 @@
 {
   "name": "layout_basic",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass scss/main.scss css/main.css -w"
+    "compile:sass": "node-sass scss/main.scss css/style.css -w"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^4.12.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gautrohit/SCSS-BS4-Training.git"
-  },
-  "bugs": {
-    "url": "https://github.com/gautrohit/SCSS-BS4-Training/issues"
-  },
-  "homepage": "https://github.com/gautrohit/SCSS-BS4-Training#readme",
-  "description": ""
+  }
 }

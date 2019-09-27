@@ -1,22 +1,20 @@
-// abstract import
-@import './abstract/functions';
-@import './abstract/mixins';
-@import './abstract/variables';
+@import "abstrac/functions";
+@import "abstrac/mixins";
+@import "abstrac/variables";
 
-// base import
-@import './base/animations';
-@import './base/base';
-@import './base/typography';
-@import './base/utililites';
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
 
-// components import
-@import './components/buttons';
-@import './components/composition';
+@import "components/buttons";
+@import "components/compositions";
+@import "./components/featchurebox";
+@import "./components/card";
 
-// layout import
-@import './layout/grid';
-@import './layout/header';
 
-//page import
+@import "layout/grid";
+@import "layout/header";
 
-@import './pages/home';
+
+@import "pages/home";

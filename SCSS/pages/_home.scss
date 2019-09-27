@@ -1,4 +1,31 @@
 .section-about {
-  background-color: $color_gray_light;
-  margin-top: -20vh;
+    background-color: $color_gray_light_1;
+    margin-top: -15vh;
+    padding-bottom: 18rem;
+
+}
+
+.section-features {
+
+    height: 50vh;
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.400), #28b485), url(../images/nat-4.jpg);
+    padding: 20rem 0;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(#000000, 0.15);
+    margin-top: -16rem;
+    // clip-path: polygon(10% 0, 100% 0, 100% 80vh, 0 100%);
+
+    transform: skewY(-7deg);
+
+    &>* {
+        transform: skewY(7deg);
+    }
+}
+
+.sction-tours {
+
+    padding: 25rem 0 50rem 0;
+    background-color: $color_gray_light_1;
+    margin-top: -12rem;
 }
